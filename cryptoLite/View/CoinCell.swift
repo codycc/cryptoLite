@@ -19,7 +19,7 @@ class CoinCell: UITableViewCell {
     
     func configureCell(coin: Coin) {
         nameLbl.text = coin.name
-        priceLbl.text = coin.price
+        priceLbl.text = coin.symbol
     }
 
     override func setSelected(_ selected: Bool, animated: Bool) {
