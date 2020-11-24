@@ -9,12 +9,14 @@
 /* Begin PBXBuildFile section */
 		0B6386B6256C42AD006BA63D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B6386B5256C42AD006BA63D /* AppDelegate.swift */; };
 		0B6386B8256C42AD006BA63D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B6386B7256C42AD006BA63D /* SceneDelegate.swift */; };
-		0B6386BA256C42AD006BA63D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B6386B9256C42AD006BA63D /* ViewController.swift */; };
 		0B6386BD256C42AD006BA63D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0B6386BB256C42AD006BA63D /* Main.storyboard */; };
 		0B6386BF256C42B0006BA63D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0B6386BE256C42B0006BA63D /* Assets.xcassets */; };
 		0B6386C2256C42B0006BA63D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0B6386C0256C42B0006BA63D /* LaunchScreen.storyboard */; };
 		0B6386CD256C42B0006BA63D /* cryptoLiteTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B6386CC256C42B0006BA63D /* cryptoLiteTests.swift */; };
 		0B6386D8256C42B0006BA63D /* cryptoLiteUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B6386D7256C42B0006BA63D /* cryptoLiteUITests.swift */; };
+		0B7E43DD256D6A3C0004B173 /* MainVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B7E43DC256D6A3C0004B173 /* MainVC.swift */; };
+		0B7E43E5256D6B910004B173 /* Coin.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B7E43E4256D6B910004B173 /* Coin.swift */; };
+		0B7E43F0256D6DF10004B173 /* CoinCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B7E43EF256D6DF10004B173 /* CoinCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,7 +40,6 @@
 		0B6386B2256C42AD006BA63D /* cryptoLite.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = cryptoLite.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0B6386B5256C42AD006BA63D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		0B6386B7256C42AD006BA63D /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		0B6386B9256C42AD006BA63D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		0B6386BC256C42AD006BA63D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		0B6386BE256C42B0006BA63D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0B6386C1256C42B0006BA63D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -49,6 +50,9 @@
 		0B6386D3256C42B0006BA63D /* cryptoLiteUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = cryptoLiteUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0B6386D7256C42B0006BA63D /* cryptoLiteUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = cryptoLiteUITests.swift; sourceTree = "<group>"; };
 		0B6386D9256C42B0006BA63D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0B7E43DC256D6A3C0004B173 /* MainVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainVC.swift; sourceTree = "<group>"; };
+		0B7E43E4256D6B910004B173 /* Coin.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Coin.swift; sourceTree = "<group>"; };
+		0B7E43EF256D6DF10004B173 /* CoinCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoinCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,10 +103,11 @@
 		0B6386B4256C42AD006BA63D /* cryptoLite */ = {
 			isa = PBXGroup;
 			children = (
+				0B7E43E3256D6B4D0004B173 /* Controller */,
+				0B7E43E2256D6B460004B173 /* View */,
+				0B7E43E1256D6B410004B173 /* Model */,
 				0B6386B5256C42AD006BA63D /* AppDelegate.swift */,
 				0B6386B7256C42AD006BA63D /* SceneDelegate.swift */,
-				0B6386B9256C42AD006BA63D /* ViewController.swift */,
-				0B6386BB256C42AD006BA63D /* Main.storyboard */,
 				0B6386BE256C42B0006BA63D /* Assets.xcassets */,
 				0B6386C0256C42B0006BA63D /* LaunchScreen.storyboard */,
 				0B6386C3256C42B0006BA63D /* Info.plist */,
@@ -126,6 +131,31 @@
 				0B6386D9256C42B0006BA63D /* Info.plist */,
 			);
 			path = cryptoLiteUITests;
+			sourceTree = "<group>";
+		};
+		0B7E43E1256D6B410004B173 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		0B7E43E2256D6B460004B173 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				0B6386BB256C42AD006BA63D /* Main.storyboard */,
+				0B7E43E4256D6B910004B173 /* Coin.swift */,
+				0B7E43EF256D6DF10004B173 /* CoinCell.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		0B7E43E3256D6B4D0004B173 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				0B7E43DC256D6A3C0004B173 /* MainVC.swift */,
+			);
+			path = Controller;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -258,8 +288,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0B6386BA256C42AD006BA63D /* ViewController.swift in Sources */,
 				0B6386B6256C42AD006BA63D /* AppDelegate.swift in Sources */,
+				0B7E43F0256D6DF10004B173 /* CoinCell.swift in Sources */,
+				0B7E43DD256D6A3C0004B173 /* MainVC.swift in Sources */,
+				0B7E43E5256D6B910004B173 /* Coin.swift in Sources */,
 				0B6386B8256C42AD006BA63D /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
